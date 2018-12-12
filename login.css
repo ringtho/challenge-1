@@ -17,6 +17,10 @@
     
 }
 
+.login-form span{
+    font-family: "Times New Roman", Times, serif;
+}
+
 .login-input input{
     width: 75%;
     height: 40px;
@@ -34,7 +38,7 @@
     text-align: justify;
     font-size: 40px;
     font-weight: 400;
-    font-family: Comic sans MS;
+    font-family:'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
     
 }
 
@@ -74,9 +78,14 @@ button:hover{
 
 .login-input{
     padding: 0px;
+    margin-top: 20px;
 }
 
 #remember {
     color: black;
+}
+
+#password {
+    margin-top: -1px;
 }
 
