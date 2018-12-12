@@ -1,0 +1,11 @@
+.login-form{
+   display: block; 
+}
+
+.form-wrapper {
+    display: block;
+    width: 30%;
+    background: blue;
+    margin: 0 auto;
+    
+}
