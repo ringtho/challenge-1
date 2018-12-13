@@ -1,0 +1,78 @@
+.form-wrapper{
+    height: 500px;
+    width: 25%;
+    background: ;
+    margin: 0 auto;
+}
+
+.signup{
+    display: block;
+    margin-top: 50px;
+    background: ;
+    padding: 10px;
+    height: 100%;
+    text-align: center;
+  
+}
+
+#signup-heading{
+    font-size: 40px;
+    text-align: center;
+    font-weight: 500;
+    padding-top: 80px;
+    margin-bottom: 20px;
+    color: mediumpurple;
+}
+
+.signup-input input{
+    margin-top: 20px;
+    height: 45px;
+    width: 90%;
+    border: 2px solid black;
+    border-radius: 3px;
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+.signup-input{
+    margin: 0 auto;
+}
+
+#password{
+    margin-bottom: 5px;
+}
+
+.span-words{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 17px;
+}
+
+.signup-button{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+button{
+    width: 95%;
+    height: 40px;
+    margin: 0 auto;
+    font-size: 20px;
+    color: #403866;
+    background: #827ffe;
+    padding: 10px;
+    border: 0px solid #827ffe;
+    border-radius: 2px;
+}
+
+button:hover{
+    background: #403866;
+    border: 0px solid #403866;
+    color: #827ffe;
+}
+
+.already-member{
+    text-align: center;
+}
+
+
