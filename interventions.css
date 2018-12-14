@@ -1,0 +1,49 @@
+.intervene{
+    width:80%;
+    height: 90%;
+    margin: 0 auto;
+}
+
+.description{
+    width: 98%;
+    height: 300px;
+    margin: 10px;
+ 
+}
+
+.description h3{
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.left-one{
+    width: 45%;
+    height: 150px;
+    float: left;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 10px;
+}
+
+.left-one button{
+    background: darkcyan;
+    margin-top: 20px;
+}
+
+.right-one{
+    width: 45%;
+    height: 150px;
+    float: left;
+    padding: 10px;
+}
+
+.right-one button{
+    background: darkcyan;
+    margin-top: 65px;
+}
+
+button:hover{
+    background: #32f2eb;
+}
+

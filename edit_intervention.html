@@ -1,0 +1,91 @@
+<html>
+    <head>
+        <title>IReporter | Edit Intervention</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="report.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="wrapper-main">
+                <div class="header">
+                    <div class="top-bar">
+                        <span><a href="login.html" style="text-decoration: none; color: black;">Login</a></span>
+                        <span><a href="signup.html" style="text-decoration: none; color: black;">SignUp</a></span>
+                    </div>
+                    <div class="nav-bar">
+                        <div class="logo">
+                            <span class="logo">IReporter</span>
+                        </div>
+                      
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="">News</a></li>
+                            <li><a href="">About Corruption</a></li>
+                            <li><a href="corruption.html">Take Action</a></li>
+                            <li><a href="">Prevent Corruption</a></li>
+                            <li><a href="interventions.html">Interventions</a></li>
+                            <li><a href="about.html">About us</a></li>
+                            <li><a href="">Donate</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="main">
+                    <div class="report-form">
+                        <div class="left-form">
+                            <form class="report">
+                                <p>INTERVENTION DETAILS</p>
+                                <select name="intervention-type">
+                                    <option value="select">--- INTERVENTION TYPE -- </option>
+                                    <option value="private">Roads</option>
+                                    <option value="public">Floods</option>
+                                    <option value="public">Health</option>
+                                    <option value="public">Bridges</option>
+                                    <option value="public">Famine</option>
+                                </select>
+                                <input type="text" id="agency" name="agency" placeholder="*AGENCY NAME">
+                                <select name="corruption-type">
+                                    <option value="select">--- AGENCY TYPE -- </option>
+                                    <option value="private">Private</option>
+                                    <option value="public">Public</option>
+                                </select>
+                                <input type="text" id="location" name="location" placeholder="DISTRICT OF THE AREA">
+                                <input type="text" id="town" name="town" placeholder="*TOWN OF AREA">
+                                <input type="text" id="town" name="parish" placeholder="*PARISH OF THE AREA">
+                            </form>
+                        </div>
+                        <div class="left-form">
+                            <form class="report">
+                                <p>MORE DETAILS</p>
+                                <input type="text" id="date" name="date" placeholder="*When did the incident take place?">
+                                <input type="text" id="map" name="map" placeholder="*ADD MAP COORDINATES">
+                                <textarea name="what-happened" type="text" placeholder="WHAT IS THE MAGNITUDE OF THE ISSUE TO REQUIRE IMMEDIATE INTERVENTION. Please provide as much details as possible."></textarea>
+                                <span style="font-family: arial, sans-serif;font-size: 18px; text-align: center; color: darkcyan;"><br><br>Have you sought for assistance regarding this issue from any institution and failed?</span>
+                                <select name="corruption-type">
+                                    <option value="select">-- Yes / No -- </option>
+                                    <option value="funds">Yes</option>
+                                    <option value="position">No</option>
+                                </select>
+                            </form>
+                        </div>
+                        <div class="left-form">
+                            <form class="report">
+                            <p>PERSONAL DETAILS</p>
+                               
+                                <input type="text" id="mobile" name="mobile" placeholder="Mobile Number">
+                                <input type="text" id="email" name="email"style="margin-bottom: 20px;" placeholder="Email Address">
+                                <button type="submit" id="submit">EDIT</button>
+                                <button type="submit" id="submit" style="background: red; margin-top: -20px;">DELETE</button>
+                            </form>
+                    </div>
+                </div>
+                <div class="footer">
+                    <span>@IReporter TM 2018</span>
+                    <span class="terms"><a href="" style="text-decoration: none; color: black;">Terms and Conditions</a></span>
+                </div>
+            </div>
+        </div>
+        </div>
+    </body>
+</html>
