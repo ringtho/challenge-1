@@ -1,14 +1,12 @@
 .form-wrapper{
     height: 500px;
     width: 25%;
-    background: ;
     margin: 0 auto;
 }
 
 .signup{
     display: block;
     margin-top: 50px;
-    background: ;
     padding: 10px;
     height: 100%;
     text-align: center;
@@ -21,7 +19,8 @@
     font-weight: 500;
     padding-top: 80px;
     margin-bottom: 20px;
-    color: mediumpurple;
+    color: darkcyan;
+    font-family: arial, sans-serif;
 }
 
 .signup-input input{
@@ -46,6 +45,7 @@
     margin-top: 10px;
     text-align: center;
     font-size: 17px;
+    font-family: arial, sans-serif;
 }
 
 .signup-button{
@@ -59,20 +59,21 @@ button{
     margin: 0 auto;
     font-size: 20px;
     color: #403866;
-    background: #827ffe;
+    background: darkcyan;
     padding: 10px;
     border: 0px solid #827ffe;
     border-radius: 2px;
 }
 
 button:hover{
-    background: #403866;
+    background: #18dbd4;
     border: 0px solid #403866;
-    color: #827ffe;
+
 }
 
 .already-member{
     text-align: center;
+    font-family: arial, sans-serif;
 }
 
 

@@ -18,7 +18,7 @@
 }
 
 .login-form span{
-    font-family: "Times New Roman", Times, serif;
+    font-family: arial, sans-serif;
 }
 
 .login-input input{
@@ -30,7 +30,6 @@
     border-radius: 3px;
     padding: 10px;
     font-size: 20px;
-    background: ;
     font-weight: 300;
 }
 
@@ -38,7 +37,8 @@
     text-align: justify;
     font-size: 40px;
     font-weight: 400;
-    font-family:'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
+    color: darkcyan;
+    font-family: arial, sans-serif;
     
 }
 
@@ -48,16 +48,17 @@ button{
     margin: 0 auto;
     font-size: 20px;
     color: #403866;
-    background: #827ffe;
+    background: darkcyan;
     padding: 10px;
     border: 0px solid #827ffe;
     border-radius: 2px;
+    margin-left: -20px;
 }
 
 button:hover{
-    background: #403866;
+    background: #18dbd4;
     border: 0px solid #403866;
-    color: #827ffe;
+   
 }
 .login-button{
     text-align: center;
@@ -69,11 +70,13 @@ button:hover{
     float: left;
     margin-left: 35px;
     margin-right: 20px;
+    font-family: arial, sans-serif;
     
 }
 
 .forget {
-    margin-right: -40px;
+    margin-right: -10px;
+    font-family: arial, sans-serif;
 }
 
 .login-input{
