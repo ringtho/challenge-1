@@ -35,27 +35,27 @@
 
 .login-page{
     text-align: justify;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 400;
     color: darkcyan;
     font-family: arial, sans-serif;
     
 }
 
-button{
+.login{
     height: 50px;
     width: 80%;
     margin: 0 auto;
     font-size: 20px;
-    color: #403866;
+    color: white;
     background: darkcyan;
     padding: 10px;
     border: 0px solid #827ffe;
     border-radius: 2px;
-    margin-left: -20px;
+    margin-left: 0px;
 }
 
-button:hover{
+.login:hover{
     background: #18dbd4;
     border: 0px solid #403866;
    

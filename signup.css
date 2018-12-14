@@ -6,7 +6,7 @@
 
 .signup{
     display: block;
-    margin-top: 50px;
+    margin-top: -10px;
     padding: 10px;
     height: 100%;
     text-align: center;
@@ -14,7 +14,7 @@
 }
 
 #signup-heading{
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
     font-weight: 500;
     padding-top: 80px;
@@ -53,19 +53,19 @@
     margin-bottom: 10px;
 }
 
-button{
+#signup-btn{
     width: 95%;
     height: 40px;
     margin: 0 auto;
     font-size: 20px;
-    color: #403866;
+    color: white;
     background: darkcyan;
     padding: 10px;
     border: 0px solid #827ffe;
     border-radius: 2px;
 }
 
-button:hover{
+#signup-btn:hover{
     background: #18dbd4;
     border: 0px solid #403866;
 
