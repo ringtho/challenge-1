@@ -31,10 +31,9 @@
 }
 
 select{
-    width: 80%;
+    width: 84%;
     height: 50px;
-    margin-top: 10px;
-    font-family: arial, sans-serif;
+    margin-top: 10px ;
     border-radius: 3px;
     font-size: 18px;
     border: 2px solid darkcyan;
@@ -42,14 +41,14 @@ select{
 }
 
 p{
-    font-family: arial, sans-serif;
+   
     font-size: 22px;
     color: darkcyan;
     text-align: center;
 }
 
 textarea{
-    width: 80%;
+    width: 81%;
     height: 150px;
     margin-top: 10px;
     font-family: arial, sans-serif;
@@ -59,7 +58,7 @@ textarea{
 }
 
 #submit{
-    width: 80%;
+    width: 83%;
     margin: 30px;
     background-color: darkcyan;
 }
