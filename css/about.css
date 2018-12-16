@@ -1,0 +1,12 @@
+.address{
+    width: 40%;
+    margin: 30px auto;
+    border: 2px solid darkcyan;
+    border-radius: 8px;
+  
+}
+
+p{
+    font-size: 30px;
+    text-align: center;
+}
