@@ -95,5 +95,9 @@
     #toggle:checked + .form-wrapper{
         float: left;
     }
+    
+    .form-wrapper{
+        width: 80%;
+    }
    
 }
