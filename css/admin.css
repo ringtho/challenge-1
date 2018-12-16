@@ -74,3 +74,32 @@ button{
     background: #08db64;
 }
 
+@media only screen and (max-width: 1080px){
+    #none{
+        display: none;
+    }
+    
+    table{
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 940px){
+    table{
+        width: 90%;
+        
+    }
+    #remove{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    table{
+        width: 90%;
+    }
+    
+    #last{
+        display: none;
+    }
+}

@@ -116,7 +116,7 @@ button{
     background: #32f2eb;
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 700px){
     .left{
         width: 90%;
         height: 70%;
@@ -138,24 +138,43 @@ button{
     }
     
     .shout-img{
-    width: 90%;
+    width: 80%;
     height: 70%;
+    display: none;
         
     }
     .donate-img{
-        width: 90%;
+        width: 80%;
         height: 70%;
+        display: none;
+    }
+    
+    .donate{
+        width: 25%;
+        
+    }
+    
+    .shout{
+        width: 25%;
+    }
+    
+    .subscribe{
+        width: 25%;
     }
 }
 
-@media only screen and (max-width: 940px){
+
+@media only screen and (min-width: 700px){
     .left{
         width: 80%;
         display: none;
+
     }
     .right{
         width: 80%;
+        margin: 0 auto;
     }
+  
 }
 
 @media only screen and (min-width: 940px){
@@ -163,6 +182,7 @@ button{
         width: 46%;
         height: 93%;
         float: left;
+        display: block;
     }
     
     .right{
