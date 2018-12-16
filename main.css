@@ -115,3 +115,60 @@ button{
 .btn-subscribe button:hover{
     background: #32f2eb;
 }
+
+@media only screen and (max-width: 600px){
+    .left{
+        width: 90%;
+        height: 70%;
+        float: none;
+        display: none;
+    }
+    
+    .right{
+        width: 80%;
+        height: 80%;
+    }
+    
+    .footer{
+        bottom: 0;
+    }
+    
+    h3{
+        font-size: 30px;
+    }
+    
+    .shout-img{
+    width: 90%;
+    height: 70%;
+        
+    }
+    .donate-img{
+        width: 90%;
+        height: 70%;
+    }
+}
+
+@media only screen and (max-width: 940px){
+    .left{
+        width: 80%;
+        display: none;
+    }
+    .right{
+        width: 80%;
+    }
+}
+
+@media only screen and (min-width: 940px){
+    .left{
+        width: 46%;
+        height: 93%;
+        float: left;
+    }
+    
+    .right{
+        width: 44%;
+        height: 93%;
+        float: left;
+        margin-left: 0px;
+    }
+}

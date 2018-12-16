@@ -24,7 +24,7 @@ html{
 
 .logo{
     height: 70px;
-    line-height: 0px;
+    line-height: 30px;
     width: 20%;
     float: left;
     
@@ -89,6 +89,7 @@ html{
     background: darkcyan;
     color: white;
     line-height: 60px;
+
 }
 
 .footer a{
@@ -149,5 +150,9 @@ html{
     
     #toggle:checked + .links {
         display: block;
+    }
+    
+    .menu{
+        height: auto;
     }
 }
