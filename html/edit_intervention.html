@@ -25,9 +25,9 @@
                         <input type="checkbox" id="toggle"/>
                         <div class="links">
                             <a href="/html/index.html">Home</a>
-                            <a href="">News</a>
+                            <a href="/html/news.html">News</a>
                             <a href="/html/corruption.html">Take Action</a>
-                            <a href="/html/interventions.html">Interventions</a>
+                            <a href="/html/interventions.html" style="color: red">Interventions</a>
                             <a href="/html/about.html">About Us</a>
                            
                         </div>
@@ -41,33 +41,33 @@
                                 <p>INTERVENTION DETAILS</p>
                                 <select name="intervention-type">
                                     <option value="select">--- INTERVENTION TYPE -- </option>
-                                    <option value="private">Roads</option>
+                                    <option value="private" selected>Roads</option>
                                     <option value="public">Floods</option>
                                     <option value="public">Health</option>
                                     <option value="public">Bridges</option>
                                     <option value="public">Famine</option>
                                 </select>
-                                <input type="text" id="agency" name="agency" placeholder="*AGENCY NAME">
+                                <input type="text" id="agency" name="agency" placeholder="Ministry of Lands">
                                 <select name="corruption-type">
                                     <option value="select">--- AGENCY TYPE -- </option>
                                     <option value="private">Private</option>
-                                    <option value="public">Public</option>
+                                    <option value="public" selected>Public</option>
                                 </select>
-                                <input type="text" id="location" name="location" placeholder="DISTRICT OF THE AREA">
-                                <input type="text" id="town" name="town" placeholder="*TOWN OF AREA">
-                                <input type="text" id="town" name="parish" placeholder="*PARISH OF THE AREA">
+                                <input type="text" id="location" name="location" placeholder="Mukono">
+                                <input type="text" id="town" name="town" placeholder="Seeta">
+                                <input type="text" id="town" name="parish" placeholder="Seeta">
                             </form>
                         </div>
                         <div class="left-form">
                             <form class="report">
                                 <p>MORE DETAILS</p>
-                                <input type="text" id="date" name="date" placeholder="*When did the incident take place?">
+                                <input type="text" id="date" name="date" placeholder="For a year now">
                                 <input type="text" id="map" name="map" placeholder="*ADD MAP COORDINATES">
                                 <textarea name="what-happened" type="text" placeholder="WHAT IS THE MAGNITUDE OF THE ISSUE TO REQUIRE IMMEDIATE INTERVENTION. Please provide as much details as possible."></textarea>
                                 <span style="font-family: arial, sans-serif;font-size: 18px; text-align: center; color: darkcyan;"><br><br>Have you sought for assistance regarding this issue from any institution and failed?</span>
                                 <select name="corruption-type">
                                     <option value="select">-- Yes / No -- </option>
-                                    <option value="funds">Yes</option>
+                                    <option value="funds" selected>Yes</option>
                                     <option value="position">No</option>
                                 </select>
                             </form>
@@ -76,8 +76,9 @@
                             <form class="report">
                             <p>PERSONAL DETAILS</p>
                                
-                                <input type="text" id="mobile" name="mobile" placeholder="Mobile Number">
-                                <input type="text" id="email" name="email"style="margin-bottom: 20px;" placeholder="Email Address">
+                                <input type="text" id="mobile" name="mobile" placeholder="0783836372">
+                                <input type="text" id="email" name="email"style="margin-bottom: 20px;" placeholder="Sringtho@gmail.com">
+                                <p id="status">Status: Yet to be marked</p>
                                 <button type="submit" id="submit">EDIT</button>
                                 <button type="submit" id="submit" style="background: red; margin-top: -20px;">DELETE</button>
                             </form>

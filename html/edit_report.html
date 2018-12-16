@@ -25,8 +25,8 @@
                         <input type="checkbox" id="toggle"/>
                         <div class="links">
                             <a href="/html/index.html">Home</a>
-                            <a href="">News</a>
-                            <a href="/html/corruption.html">Take Action</a>
+                            <a href="/html/news.html">News</a>
+                            <a href="/html/corruption.html" style="color: red;">Take Action</a>
                             <a href="/html/interventions.html">Interventions</a>
                             <a href="/html/about.html">About Us</a>
                            
@@ -42,17 +42,17 @@
                                 <select name="corruption-type">
                                     <option value="select">--- AGENCY TYPE -- </option>
                                     <option value="private">Private</option>
-                                    <option value="public">Public</option>
+                                    <option value="public" selected>Public</option>
                                 </select>
-                                <input type="text" id="agency" name="agency" placeholder="*AGENCY NAME">
-                                <input type="text" id="name" name="name" placeholder="*FULL NAME OF OFFICIAL">
-                                <input type="text" id="position" name="position" placeholder="*POSITION HELD">
-                                <input type="text" id="location" name="location" placeholder="DISTRICT OF INCIDENT">
-                                <input type="text" id="town" name="town" placeholder="*TOWN OF INCIDENT">
+                                <input type="text" id="agency" name="agency" placeholder="Ministry of Health">
+                                <input type="text" id="name" name="name" placeholder="Moses Kawuma">
+                                <input type="text" id="position" name="position" placeholder="COO">
+                                <input type="text" id="location" name="location" placeholder="Kampala">
+                                <input type="text" id="town" name="town" placeholder="Kampala">
                                 <select name="corruption-type">
                                     <option value="select">-- select Abuse Type -- </option>
                                     <option value="funds">Abuse of funds</option>
-                                    <option value="position">Abuse of position</option>
+                                    <option value="position" selected>Abuse of position</option>
                                     <option value="assets">Abuse of assets</option>
                                 </select>
                             </form>
@@ -60,13 +60,13 @@
                         <div class="left-form">
                             <form class="report">
                                 <p>MORE DETAILS</p>
-                                <input type="text" id="date" name="date" placeholder="*When did the incident take place?">
-                                <input type="text" id="map" name="map" placeholder="*ADD MAP COORDINATES">
+                                <input type="text" id="date" name="date" placeholder="23rd December 2017">
+                                <input type="text" id="map" name="map" placeholder="41°24'12.2″N 2°10'26.5″E.">
                                 <textarea name="what-happened" type="text" placeholder="WHAT HAPPENED IN DETAIL. Please provide as much details as possible."></textarea>
                                 <span style="font-family: arial, sans-serif;font-size: 18px; text-align: center; color: darkcyan;"><br><br>Have you reported this incident to anyone?</span>
                                 <select name="corruption-type">
                                     <option value="select">-- Yes / No -- </option>
-                                    <option value="funds">Yes</option>
+                                    <option value="funds" selected>Yes</option>
                                     <option value="position">No</option>
                                 </select>
                             </form>
@@ -75,6 +75,7 @@
                             <form class="report">
                             <p>DOCUMENTS</p>
                                 <textarea type="text" id="upload" name="upload" placeholder="*Do you have any documents to support your claim?. If so provide us with a link to the documents."></textarea>
+                                <p id="status">Status: Yet to be marked</p>
                                 <button type="submit" id="submit">EDIT</button>
                                 <button type="submit" id="submit" style="background: red; margin-top: -20px;">DELETE</button>
                             </form>
