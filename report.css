@@ -66,3 +66,92 @@ textarea{
 #submit:hover{
     background: #32f2eb;
 }
+
+@media only screen and (max-width: 600px){
+    select{
+        font-size: 15px;
+    }
+    .report input{
+        font-size: 15px;
+    }
+    
+    .left-form{
+        width: 80%;
+        margin: 0 auto;
+        float: none;
+        
+    }
+    
+    .main{
+        height: auto;
+    }
+    
+    .footer{
+        bottom: 0;
+    }
+}
+
+@media only screen and (min-width: 600px){
+    select{
+        font-size: 16px;
+    }
+    
+    .report input{
+        font-size: 16px;
+    }
+    
+    .left-form{
+        width: 70%;
+        margin: 0 auto;
+        float: none;
+    }
+    
+    .main{
+        height: auto;
+    }
+    
+    .footer{
+        bottom: 0;
+    }
+}
+
+@media only screen and (min-width: 940px){
+    select{
+        font-size: 14px;
+    
+    }
+    .report input{
+        font-size: 13px;
+    }
+    
+    text-area{
+        font-size: 16px;
+    }
+    
+    .main{
+        height: 600px;
+    }
+    
+    .footer{
+        float: none;
+        bottom: 0;
+    }
+    
+    .left-form{
+        float: left;
+        width: 30%;
+    }
+}
+
+@media only screen and (min-width: 1080px){
+    select{
+        font-size: 18px;
+    }
+    
+    .report input{
+        font-size: 18px;
+    }
+    
+}
+
+
