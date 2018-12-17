@@ -2,9 +2,9 @@
 <html>
     <head>
         <title>iReporter</title>
-        <link rel="stylesheet" href="/css/template.css">
-        <link rel="stylesheet" href="/css/main.css">
-        <link rel="stylesheet" href="/css/report.css">
+        <link rel="stylesheet" href="../css/template.css">
+        <link rel="stylesheet" href="../css/main.css">
+        <link rel="stylesheet" href="../css/report.css">
 <!--        <link rel="stylesheet" href="interventions.css">-->
         <meta charset="utf-8">
         <meta name="viewport" content="width-device, initial-scale=1.0">
@@ -13,8 +13,8 @@
         <div class="container">
             <div class="header">
                 <div class="top-bar">
-                    <a href="/html/user_profile.html">Sringtho</a>
-                    <a href="/html/corruption.html">LogOut</a>
+                    <a href="user_profile.html">Sringtho</a>
+                    <a href="corruption.html">LogOut</a>
                 </div>
                 <div class="nav-bar">
                     <div class="logo">
@@ -24,11 +24,11 @@
                         <label id="label" for="toggle">&#9776;</label>
                         <input type="checkbox" id="toggle"/>
                         <div class="links">
-                            <a href="/html/index.html">Home</a>
-                            <a href="/html/news.html">News</a>
-                            <a href="/html/corruption.html" style="color: red;">Take Action</a>
-                            <a href="/html/interventions.html">Interventions</a>
-                            <a href="/html/about.html">About Us</a>
+                            <a href="index.html">Home</a>
+                            <a href="list.html">Submissions</a>
+                            <a href="corruption.html" style="color: red;">Red Flags</a>
+                            <a href="interventions.html">Interventions</a>
+                            <a href="about.html">About Us</a>
                            
                         </div>
                     </div>
@@ -61,7 +61,6 @@
                             <form class="report">
                                 <p>MORE DETAILS</p>
                                 <input type="text" id="date" name="date" placeholder="*When did the incident take place?">
-                                <input type="text" id="map" name="map" placeholder="*ADD MAP COORDINATES">
                                 <textarea name="what-happened" type="text" placeholder="WHAT HAPPENED IN DETAIL. Please provide as much details as possible."></textarea>
                                 <span style="font-family: arial, sans-serif;font-size: 18px; text-align: center; color: darkcyan;"><br><br>Have you reported this incident to anyone?</span>
                                 <select name="corruption-type">
@@ -69,12 +68,15 @@
                                     <option value="funds">Yes</option>
                                     <option value="position">No</option>
                                 </select>
+                                
                             </form>
                         </div>
                         <div class="left-form">
                             <form class="report">
                             <p>DOCUMENTS</p>
-                                <textarea type="text" id="upload" name="upload" placeholder="*Do you have any documents to support your claim?. If so provide us with a link to the documents."></textarea>
+                                <input type="text" id="map" name="map" placeholder="*LATITUDE COORDINATES">
+                                <input type="text" id="map" name="map" placeholder="*LONGITUDE COORDINATES">
+                                <input type="file" id="File">
                                 <button type="submit" id="submit">SUBMIT</button>
                             </form>
                         </div>

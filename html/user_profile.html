@@ -2,8 +2,9 @@
 <html>
     <head>
         <title>iReporter | Profile</title>
-        <link rel="stylesheet" href="/css/template.css">
-        <link rel="stylesheet" href="/css/user_profile.css">
+        <link rel="stylesheet" href="../css/template.css">
+        <link rel="stylesheet" href="../css/user_profile.css">
+     
       
         <meta charset="utf-8">
         <meta name="viewport" content="width-device, initial-scale=1.0">
@@ -12,8 +13,8 @@
         <div class="container">
             <div class="header">
                 <div class="top-bar">
-                    <a href="">Sringtho</a>
-                    <a href="/html/index.html">SignOut</a>
+                    <a href="user_profile.html" style="color: red;">Sringtho</a>
+                    <a href="index.html">SignOut</a>
                 </div>
                 <div class="nav-bar">
                     <div class="logo">
@@ -23,11 +24,11 @@
                         <label id="label" for="toggle">&#9776;</label>
                         <input type="checkbox" id="toggle"/>
                         <div class="links">
-                            <a href="/html/index.html">Home</a>
-                            <a href="/html/news.html">News</a>
-                            <a href="/html/corruption.html">Take Action</a>
-                            <a href="/html/interventions.html">Interventions</a>
-                            <a href="/html/about.html">About Us</a>
+                            <a href="index.html">Home</a>
+                            <a href="list.html">Submissions</a>
+                            <a href="corruption.html">Red Flags</a>
+                            <a href="interventions.html">Interventions</a>
+                            <a href="about.html">About Us</a>
              
                         </div>
                     </div>
@@ -36,20 +37,12 @@
             <div class="main">
                 <div class="flags">
                     <div class="resolved">
-                        <h2>Sringtho</h2>
-                        <table>
-                            <tr>
-                                <th>Name</th>
-                                <th>Email</th>
-                            </tr>
-                            <tr>
-                                <td>Smith Ringtho</td>
-                                <td>Sringtho@gmail.com</td>
-                            </tr>
-                            
-                        </table>
-                        <div class="cent">
-                            <button id="change">Change Details</button>
+                        <div class="card">
+                              <img src="../img/sevo.jpg" alt="prof-pic" style="width:100%; border-radius: 50%;">
+                              <h1>Smith Ringtho</h1>
+                              <p class="title">Username: Sringtho</p>
+                              <p>Email: Sringtho@gmail</p>
+                              <p><button id="change" style="  border: none; outline: 0; display: inline-block; padding: 8px; color: white; background-color: darkcyan; text-align: center; cursor: pointer; width: 100%; font-size: 18px;" onclick="window.location.href='change.html'">Change Details</button></p>
                         </div>
                     </div >
                     <div class="investigation">
@@ -61,14 +54,13 @@
                                 <th id="red">Rejected</th>
                             </tr>
                             <tr>
-                                <td>10</td>
-                                <td>30</td>
-                                <td>20</td>
+                                <td>0</td>
+                                <td>1</td>
+                                <td>1</td>
                             </tr>
                             
                         </table>
-                    </div>
-                    <div class="rejected">
+                        
                         <h2>Red Flags</h2>
                         <table>
                             <tr>
@@ -77,54 +69,108 @@
                                 <th id="red">Rejected</th>
                             </tr>
                             <tr>
-                                <td>2</td>
-                                <td>8</td>
-                                <td>20</td>
+                                <td>0</td>
+                                <td>1</td>
+                                <td>0</td>
                             </tr>
                             
                         </table>
                     </div>
                 </div>
-                <div class="table">
-                    <div class="words">
-<!--
-                         <table>
+                <div class="user_lists">
+                    <div class="heading">
+                    </div>
+                    
+                    <div class="grid">
+                    <div class="image">
+                        <img id="pic" src="../img/road.jpg" alt="corruption">
+                    </div>
+                    <div class="fields">
+                        <table id="table">
                             <tr>
-                                <th>Name of Official</th>
+                                <th>Entry Type</th>
                                 <th>Agency Name</th>
-                                <th id="last">Position Held</th>
-                                <th id="remove">District of Incident</th>
-                                <th id="none">Town of Incident</th>
-                                <th id="remove">Map Cordinates</th>
-                                <th>Abuse Type</th>
-                                <th id="none">Detailed Report</th>
-                                <th id="remove">Status</th>
+                                <th>Name of Official</th>
+                                <th>Position Held</th>
+                                <th>Location</th>
+                                <th>Latitude</th>
+                                <th>Longitude</th>
+                                <th>Status</th>
                             </tr>
                             <tr>
-                                <td>Yoweri Museveni</td>
-                                <td>Ministry of foreign affairs</td>
-                                <td id="last">President of Uganda</td>
-                                <td id="remove">Kampala</td>
-                                <td id="none">Kampala</td>
-                                <td id="remove">41°24'12.2″N 2°10'26.5″E.</td>
-                                <td>Abuse of Funds</td>
-                                <td id="none">He used the money to buy fake supporters</td>
-                                <td id="remove">Under Investigation</td>
-                            </tr>
-                            <tr>
-                                <td>Moses Kawuma</td>
+                                <td style="font-weight: bold;">Red Flag</td>
                                 <td>Ministry of Health</td>
-                                <td id="last">President of Uganda</td>
-                                <td id="remove">Kampala</td>
-                                <td id="none">Kampala</td>
-                                <td id="remove">41°24'12.2″N 2°10'26.5″E.</td>
-                                <td>Abuse of Funds</td>
-                                <td id="none">He used the money to buy fake supporters</td>
-                                <td id="remove">Under Investigation</td>
+                                <td>Moses Kawuma</td>
+                                <td>State Minister</td>
+                                <td>Kampala</td>
+                                <td>Latitude</td>
+                                <td>Longitude</td>
+                                <td id="invest">Under Investigation</td>
+                                
                             </tr>
                         </table>
--->
                     </div>
+                </div>
+                        <div class="grid">
+                    <div class="image">
+                        <img id="pic" src="../img/road.jpg" alt="corruption">
+                    </div>
+                    <div class="fields">
+                         <table id="table">
+                            <tr>
+                                <th>Entry Type</th>
+                                <th>Agency Name</th>
+                                <th>Name of Official</th>
+                                <th>Position Held</th>
+                                <th>Location</th>
+                                <th>Latitude</th>
+                                <th>Longitude</th>
+                                <th>Status</th>
+                            </tr>
+                            <tr>
+                                <td style="font-weight: bold;">Red Flag</td>
+                                <td>Ministry of Health</td>
+                                <td>Moses Kawuma</td>
+                                <td>State Minister</td>
+                                <td>Kampala</td>
+                                <td>Latitude</td>
+                                <td>Longitude</td>
+                                <td id="reject">Rejected</td>
+                                
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                        <div class="grid">
+                    <div class="image">
+                        <img id="pic" src="../img/floods.jpeg" alt="corruption">
+                    </div>
+                    <div class="fields">
+                        <table id="table">
+                            <tr>
+                                <th>Entry Type</th>
+                                <th>Agency Name</th>
+                                <th>Name of Official</th>
+                                <th>Position Held</th>
+                                <th>Location</th>
+                                <th>Latitude</th>
+                                <th>Longitude</th>
+                                <th>Status</th>
+                            </tr>
+                            <tr>
+                                <td style="font-weight: bold;">Intervention</td>
+                                <td>Ministry of Lands</td>
+                                <td>Bad Roads</td>
+                                <td>State Minister</td>
+                                <td>Kampala</td>
+                                <td>Latitude</td>
+                                <td>Longitude</td>
+                                <td id="resolve">Resolved</td>
+                                
+                            </tr>
+                        </table>
+                    </div>
+                </div>
                 </div>
             </div>
             <div class="footer">
